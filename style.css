@@ -106,7 +106,7 @@
         text-align: center;
     }
 }
-    @media screen and (min-width:991px){
+    @media screen and (min-width:992px){
         .hero{
             padding-top: 30px;
             padding-bottom: 120px;
@@ -138,21 +138,121 @@
 /*about*/
 .about-img img{
     border-radius:50%;
+    object-fit: cover;
 }
 .about{
     display: flex;
     justify-content: space-between;
 }
+@media  screen and (min-width:992px) {
+    .about .about-content{
+        max-width: 50%;
+        padding-top: 80px;
+       
+    }
+}
+@media screen and (max-width:992px){
+    .about{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about .about-content{
+        max-width: 100%;
+    }
+    .about-img img{
+        size:300px;
+    }
+    
+}
 .about .about-content{
-    max-width: 50%;
     text-align: center;
 }
 .about-section{
     padding: 100px;
 }
-.about-content hr{
-    width:100px;
-    align-self: center;
+ .line{
+    width:80px;
+    margin: auto;
+    height: 5px;
+    background-color: var(--gold);
+    border-radius: 10px;
+}
+.about-content .social-links a{
+    padding: 10px;
+    font-size: 18pt;
+    color: black;
 
 }
- 
+.social-links{
+    margin-bottom: 100px;
+}
+.about-content h2{
+    font-weight: bold;
+}
+.about-content p{
+    font-size: 14pt;
+    padding-top: 40px;
+  
+}
+/*menu section*/
+.menu .card{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: none
+}
+.menu .card p{
+    font-size: 13pt;
+}
+.menu-content{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.menu .card img{
+    object-fit: contain;
+}
+.menu-content h2,.menu-cards h5 {
+    font-weight:700;
+}
+.menu-cards{
+    padding-top: 100px;
+   
+}
+.menu-cards .card .card-body{
+    padding: 50px;
+}
+.menu-cards .card-text{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+/*testimonial sections*/
+.test-section{
+    background-color: #faf4f5;
+}
+.test-content{
+    text-align: center;
+    padding-top: 80px;
+}
+.test-content h2{
+    font-weight: 700;
+}
+.carousel-item .card{
+    background-color: transparent;
+    border: none;
+    width:400px;
+    text-align: center;
+    align-items: center;
+}
+.carousel .card-img-top{
+    border-radius: 50%;
+   object-fit: contain;
+   width: 180px;
+   height: 180px;
+}
+.carousel-inner{
+    padding: 20px;
+}
