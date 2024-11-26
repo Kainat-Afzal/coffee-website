@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/6d88e8176d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body style="font-family: poppins,sans-serif;">
-     <!--navbar-->
+    <!--navbar-->
     <div class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand text-white" href="#">
@@ -60,7 +66,8 @@
                 <div class="main-content">
                     <h1 style="font-family: Miniver,sans-serif;">Best Coffee</h1>
                     <h2 class="pt-2">Make your day great with our special coffee!</h2>
-                    <p class="pt-4">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                    <p class="pt-4">Welcome to our coffee paradise, where every bean tells a story and every cup sparks
+                        joy.</p>
                     <button type="button" class="btn mt-4" id="order-btn">Order Now</button>
                     <button type="button" class="btn mt-4" id="contact-btn">Contact Us</button>
                 </div>
@@ -78,7 +85,7 @@
         <div class="container about-section">
             <div class="about">
                 <div class="about-img">
-                    <img src="./images/about-image.jpg" width="400px" height="400px" alt="about image" >
+                    <img src="./images/about-image.jpg"  alt="about image">
 
                 </div>
                 <div class="about-content">
@@ -86,9 +93,9 @@
                     <div class="line mt-3"></div>
                     <p>
                         At Coffee House in Berndorf, Germany, we pride ourselves on being a go-to destination for coffee
-                         lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee 
-                         experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their
-                          time in comfort.
+                        lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee
+                        experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their
+                        time in comfort.
                     </p>
                     <div class="social-links mt-4">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -111,110 +118,116 @@
                     <div class="line mt-3"></div>
                 </div>
                 <div class="menu-cards">
-                <div class="row">
-                    <div class=" col- col-md-6 col-lg-4 ">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/hot-beverages.png" alt="hot-beverages" width="200px" height="200px">
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h5>Hot Beverages</h5>
-                                </div>
-                                <div class="card-text">
-                                    <p>Wide range of Steaming hot coffee to make you fresh and light.</p>
-                                </div>
+                    <div class="row">
+                        <div class=" col- col-md-6 col-lg-4 ">
+                            <div class="card">
+                                <img class="card-img-top" src="./images/hot-beverages.png" alt="hot-beverages"
+                                    width="200px" height="200px">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Hot Beverages</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Wide range of Steaming hot coffee to make you fresh and light.</p>
+                                    </div>
 
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class=" col- col-md-6 col-lg-4 ">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/cold-beverages.png" alt="cold-beverages" width="200px" height="200px">
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h5>Cold Beverages</h5>
-                                </div>
-                                <div class="card-text">
-                                    <p>Creamy and frothy cold coffee to make you cool.</p>
-                                </div>
-
-                            </div>
-
-                            
-
-                        </div>
-
-
-
-                    </div>
-                    <div class=" col- col-md-6 col-lg-4 ">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/refreshment.png" alt="refreshment" width="200px" height="200px">
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h5>Refreshment</h5>
-                                </div>
-                                <div class="card-text">
-                                    <p>Fruit and icy refreshing drink to make feel refresh.</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class=" col- col-md-6 col-lg-4 ">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/special-combo.png" alt="special-combo" width="200px" height="200px">
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h5>Special Combos</h5>
-                                </div>
-                                <div class="card-text">
-                                    <p>Your favorite eating and drinking combations.</p>
                                 </div>
 
                             </div>
 
                         </div>
+                        <div class=" col- col-md-6 col-lg-4 ">
+                            <div class="card">
+                                <img class="card-img-top" src="./images/cold-beverages.png" alt="cold-beverages"
+                                    width="200px" height="200px">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Cold Beverages</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Creamy and frothy cold coffee to make you cool.</p>
+                                    </div>
 
-                    </div>
-                    <div class=" col- col-md-6 col-lg-4 ">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/desserts.png" alt="desserts" width="200px" height="200px">
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h5>Desserts</h5>
-                                </div>
-                                <div class="card-text">
-                                    <p>Satiate your palate and take you on a culinary treat.</p>
                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col- col-md-6 col-lg-4 ">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/burger-frenchfries.png" alt="burger-frenchfries" width="200px" height="200px">
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h5>Burger & French Fries</h5>
-                                </div>
-                                <div class="card-text">
-                                    <p>Quick bites to satisfy your small size hunger.</p>
-                                </div>
+
 
                             </div>
 
-                            
+
+
+                        </div>
+                        <div class=" col- col-md-6 col-lg-4 ">
+                            <div class="card">
+                                <img class="card-img-top" src="./images/refreshment.png" alt="refreshment" width="200px"
+                                    height="200px">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Refreshment</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Fruit and icy refreshing drink to make feel refresh.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class=" col- col-md-6 col-lg-4 ">
+                            <div class="card">
+                                <img class="card-img-top" src="./images/special-combo.png" alt="special-combo"
+                                    width="200px" height="200px">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Special Combos</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Your favorite eating and drinking combations.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class=" col- col-md-6 col-lg-4 ">
+                            <div class="card">
+                                <img class="card-img-top" src="./images/desserts.png" alt="desserts" width="200px"
+                                    height="200px">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Desserts</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Satiate your palate and take you on a culinary treat.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col- col-md-6 col-lg-4 ">
+                            <div class="card">
+                                <img class="card-img-top" src="./images/burger-frenchfries.png" alt="burger-frenchfries"
+                                    width="200px" height="200px">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Burger & French Fries</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Quick bites to satisfy your small size hunger.</p>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+
 
                         </div>
 
-
-
                     </div>
-
-                </div>
                 </div>
 
             </div>
@@ -230,67 +243,226 @@
                     <h2>TESTIMONIALS</h2>
                     <div class="line mt-3"></div>
                 </div>
-                <div class="carousel">
-                    <div id="#car" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="card">
-                                    <img class="card-img-top" src="./images/user-1.jpg" alt="user-1">
-                                    <div class="card-body">
-                                        <div class="card-title">
-                                            <h5>Sarah Johnson</h5>
-                                        </div>
-                                        <div class="card-text">
-                                            <p>"Loved the French roast. Perfectly balanced and rich. Will order again!"</p>
-                                        </div>
-        
-                                    </div>
-        
-                                </div>
-                            </div>
-                            <div class="carousel-item active">
-                                <div class="card">
-                                    <img class="card-img-top" src="./images/user-2.jpg" alt="user-2">
-                                    <div class="card-body">
-                                        <div class="card-title">
-                                            <h5>Sarah Johnson</h5>
-                                        </div>
-                                        <div class="card-text">
-                                            <p>"Loved the French roast. Perfectly balanced and rich. Will order again!"</p>
-                                        </div>
-        
-                                    </div>
-        
-                                </div>
-                            </div>
-                            <div class="carousel-item active">
-                                <div class="card">
-                                    <img class="card-img-top" src="./images/user-3.jpg" alt="user-3">
-                                    <div class="card-body">
-                                        <div class="card-title">
-                                            <h5>Sarah Johnson</h5>
-                                        </div>
-                                        <div class="card-text">
-                                            <p>"Loved the French roast. Perfectly balanced and rich. Will order again!"</p>
-                                        </div>
-        
-                                    </div>
-        
-                                </div>
-                            </div>
+                <div class="testimonial">
 
+                    <div class="single-item test-cards">
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="./images/user-1.jpg" alt="user-1">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Sarah Johnson</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>"Loved the French roast. Perfectly balanced and rich. Will order again!"</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="./images/user-2.jpg" alt="user-2">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>James Wilson</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>"Great espresso blend! Smooth and bold flavor. Fast shipping too!"</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="./images/user-3.jpg" alt="user-3">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Michael Brown</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="./images/user-5.jpg" alt="user-5">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Anthony Thompson</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>"Best decaf I've tried! Smooth and flavorful. Arrived promptly."</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="./images/user-4.jpg" alt="user-4">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Emily Harris</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>"Excellent quality! Fresh beans and quick delivery. Highly recommend."</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
                         </div>
 
 
                     </div>
 
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!--Gallery-->
+    <div class="container">
+        <div class="img-gallery">
+            <div class="gallery-content">
+                <h2>GALLERY</h2>
+                <div class="line mt-3"></div>
+            </div>
+            <div class="gallery-images">
+                <div class="row">
+
+                    <div class="col- col-md-6 col-lg-4">
+                        <div class="images">
+                            <img src="./images/gallery-1.jpg" alt="gallery-1" class="img-fluid gallery-item">
+                        </div>
+                    </div>
+                    <div class="col- col-md-6 col-lg-4 ">
+                        <div class="images">
+                            <img src="./images/gallery-2.jpg" alt="gallery-2" class="img-fluid gallery-item">
+                        </div>
+                    </div>
+                    <div class="col- col-md-6 col-lg-4">
+                        <div class="images">
+                            <img src="./images/gallery-3.jpg" alt="gallery-3" class="img-fluid gallery-item">
+                        </div>
+                    </div>
+                    <div class="col- col-md-6 col-lg-4 ">
+                        <div class="images">
+                            <img src="./images/gallery-4.jpg" alt="gallery-4" class="img-fluid gallery-item">
+                        </div>
+                    </div>
+                    <div class="col- col-md-6 col-lg-4 ">
+                        <div class="images">
+                            <img src="./images/gallery-5.jpg" alt="gallery-5" class="img-fluid gallery-item">
+                        </div>
+                    </div>
+                    <div class="col- col-md-6 col-lg-4 ">
+                        <div class="images">
+                            <img src="./images/gallery-6.jpg" alt="gallery-6" class="img-fluid gallery-item">
+                        </div>
+                    </div>
                 </div>
 
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!--Contact Us-->
+    <div class="container-fluid contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>CONTACT US</h2>
+                <div class="line mt-3"></div>
+            </div>
+            <div class="contact-section">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-location-crosshairs"></i> 123 Campsite Avenue, Wilderness, CA 98765</p>
+                    <p><i class="fa-regular fa-envelope"></i> info@coffeeshopwebsite.com</p>
+                    <p><i class="fa-solid fa-phone"></i> (123) 456-78909</p>
+                    <p><i class="fa-regular fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    <p><i class="fa-regular fa-clock"></i> Saturday: 10:00 AM - 3:00 PM</p>
+                    <p><i class="fa-regular fa-clock"></i> Sunday: Closed</p>
+                    <p><i class="fa-solid fa-globe"></i> www.abcweb.com</p>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" placeholder="your name" name="name" class="form-input"><br>
+                        <input type="email" placeholder="your email" name="email" class="form-input"><br>
+                        <textarea placeholder="your message" class="form-input" style="height:100px"></textarea><br>
+                        <button type="submit">Submit</button>
+                    </form>
+
+                </div>
 
             </div>
 
         </div>
 
     </div>
+    <!--footer-->
+    <div class="container-fluid bg-dark text-white">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-content">
+                    © 2024 Coffee Shop
+                </div>
+                <div class="social-links footer-content">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
 
+                </div>
+                <div class="footer-content">
+                    <a href="#">Privacy Policy</a> . 
+                    <a href="#">  Refund Policy</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.single-item').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
+    </script>
 </body>
